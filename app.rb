@@ -2,6 +2,9 @@
 require 'bundler'
 require 'sinatra'
 require 'sinatra/activerecord'
+require 'restforce'
+require 'salesforce_bulk_api'
+require 'will_paginate'
 Bundler.require
 
 # We need to load the PG database that we are going to use
