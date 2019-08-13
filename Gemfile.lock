@@ -14,6 +14,8 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     concurrent-ruby (1.1.5)
+    faker (2.1.2)
+      i18n (>= 0.8)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.13.1)
@@ -26,6 +28,7 @@ GEM
     multipart-post (2.1.1)
     mustermann (1.0.3)
     pg (1.1.4)
+    populator (1.0.0)
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
@@ -58,7 +61,9 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  faker
   pg
+  populator
   rake
   restforce (~> 3.1.0)
   salesforce_bulk_api
